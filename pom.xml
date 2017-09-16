@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>morgan</groupId>
+  <artifactId>dependency_test</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <repositories>  
+    <repository>
+        <id>dropbox-mvn-repo</id>
+        <name>My Dropbox Repository</name>
+        <url>
+             https://www.dropbox.com/sh/d1ei4f1vngwy8bs/AACy8bB0NNGBHNIsj6CZ4n7Aa?dl=0
+        </url>
+    </repository>
+</repositories>  
+
+<dependencies>
+	<dependency>
+	    <groupId>morgan</groupId>
+	    <artifactId>student_reg</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.12</version>
+	    <scope>test</scope>
+	</dependency>
+	<dependency>
+	    <groupId>org.hamcrest</groupId>
+	    <artifactId>hamcrest-all</artifactId>
+	    <version>1.3</version>
+	    <scope>test</scope>
+	</dependency>
+	</dependencies>
+</project>
