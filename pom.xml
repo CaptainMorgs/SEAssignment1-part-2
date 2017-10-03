@@ -5,6 +5,13 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <repositories>  
+   <repository>
+        <id>mvn</id>
+        <name>Maven Repository</name>
+        <url>
+             https://mvnrepository.com
+        </url>
+    </repository>
     <repository>
         <id>dropbox-mvn-repo</id>
         <name>My Dropbox Repository</name>
