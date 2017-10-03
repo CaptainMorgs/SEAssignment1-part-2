@@ -9,7 +9,7 @@
         <id>mvn</id>
         <name>Maven Repository</name>
         <url>
-             https://mvnrepository.com
+             https://mvnrepository.com/artifact
         </url>
     </repository>
     <repository>
