@@ -4,7 +4,7 @@
   <artifactId>dependency_test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <repositories>  
+  <!-- <repositories>  
    <repository>
         <id>mvn</id>
         <name>Maven Repository</name>
@@ -19,14 +19,21 @@
              https://www.dropbox.com/sh/d1ei4f1vngwy8bs/AACy8bB0NNGBHNIsj6CZ4n7Aa?dl=0
         </url>
     </repository>
-</repositories>  
+</repositories>   -->
+
+<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 
 <dependencies>
-	<dependency>
+	<!-- <dependency>
 	    <groupId>morgan</groupId>
 	    <artifactId>student_reg</artifactId>
 	    <version>0.0.1-SNAPSHOT</version>
-	</dependency>
+	</dependency> -->
 	<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
 <dependency>
     <groupId>joda-time</groupId>
@@ -44,6 +51,12 @@
 	    <artifactId>hamcrest-all</artifactId>
 	    <version>1.3</version>
 	    <scope>test</scope>
+	</dependency>
+	
+	<dependency>
+	    <groupId>com.github.CaptainMorgs</groupId>
+	    <artifactId>SEAssignment1</artifactId>
+	    <version>-SNAPSHOT</version>
 	</dependency>
 	
 	</dependencies>
